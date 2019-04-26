@@ -1,7 +1,7 @@
 <?php
 
 use yii\bootstrap\Html;
-use dmstr\widgets\Alert;
+use yii\bootstrap\Alert;
 
 /* @var $this yii\web\View */
 /* @var $content string */

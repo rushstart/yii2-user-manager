@@ -20,7 +20,8 @@ class UserAsset extends AssetBundle {
         'css/multi-select.css'
     ];
     public $depends = [
-        'yii\web\JqueryAsset',
+        'yii\web\YiiAsset',
+        'yii\bootstrap\BootstrapAsset',
     ];
 
 }
