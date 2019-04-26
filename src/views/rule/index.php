@@ -4,7 +4,7 @@ use yii\grid\GridView;
 use yii\bootstrap\Html;
 
 /* @var $this yii\web\View */
-/* @var $searchModel rushstart\user\models\search\AuthRuleSearch */
+/* @var $searchModel rushstart\usermanager\models\search\AuthRuleSearch */
 /* @var $dataProvider yii\data\ActiveDataProvider */
 
 $this->title = 'Правила доступа';

@@ -6,7 +6,7 @@
  * @license http://www.yiiframework.com/license/
  */
 
-namespace rushstart\user\assets;
+namespace rushstart\usermanager\assets;
 
 use yii\web\AssetBundle;
 

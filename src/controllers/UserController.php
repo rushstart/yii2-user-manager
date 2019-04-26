@@ -1,13 +1,13 @@
 <?php
 
-namespace rushstart\user\controllers;
+namespace rushstart\usermanager\controllers;
 
-use rushstart\user\behaviors\AccessControlBehavior;
-use rushstart\user\models\forms\LoginForm;
-use rushstart\user\models\forms\SignupForm;
-use rushstart\user\models\forms\UserForm;
-use rushstart\user\models\Identity;
-use rushstart\user\models\search\UserSearch;
+use rushstart\usermanager\behaviors\AccessControlBehavior;
+use rushstart\usermanager\models\forms\LoginForm;
+use rushstart\usermanager\models\forms\SignupForm;
+use rushstart\usermanager\models\forms\UserForm;
+use rushstart\usermanager\models\Identity;
+use rushstart\usermanager\models\search\UserSearch;
 use Yii;
 use yii\filters\VerbFilter;
 use yii\web\Controller;

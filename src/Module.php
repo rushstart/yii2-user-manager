@@ -1,19 +1,19 @@
 <?php
 
-namespace rushstart\user;
+namespace rushstart\usermanager;
 
 use Yii;
 use yii\base\BootstrapInterface;
 
 /**
- * userManager module definition class
+ * User Manager module definition class
  */
 class Module extends \yii\base\Module implements BootstrapInterface {
 
     /**
      * {@inheritdoc}
      */
-    public $controllerNamespace = 'rushstart\user\controllers';
+    public $controllerNamespace = 'rushstart\usermanager\controllers';
 
     /**
      * {@inheritdoc}
@@ -27,7 +27,6 @@ class Module extends \yii\base\Module implements BootstrapInterface {
      * @param \yii\base\Application $app
      */
     public function bootstrap($app) {
-        dpm('f');
         if ($app instanceof \yii\web\Application) {
             $app->getUrlManager()->addRules([
                 'user' => "{$this->id}/user/index",

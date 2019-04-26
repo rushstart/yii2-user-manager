@@ -6,7 +6,7 @@ use yii\bootstrap\Html;
 
 /* @var $this yii\web\View */
 /* @var $form yii\bootstrap\ActiveForm */
-/* @var $model rushstart\user\models\forms\LoginForm */
+/* @var $model rushstart\usermanager\models\forms\LoginForm */
 
 $this->title = 'Вход в систему';
 

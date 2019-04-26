@@ -1,15 +1,15 @@
 <?php
 
-namespace rushstart\user\controllers;
+namespace rushstart\usermanager\controllers;
 
 use Yii;
-use rushstart\user\models\AuthPermission;
-use rushstart\user\models\search\AuthPermissionSearch;
+use rushstart\usermanager\models\AuthPermission;
+use rushstart\usermanager\models\search\AuthPermissionSearch;
 use yii\db\StaleObjectException;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
-use rushstart\user\behaviors\AccessControlBehavior;
+use rushstart\usermanager\behaviors\AccessControlBehavior;
 
 /**
  * PermissionController implements the CRUD actions for AuthPermission model.

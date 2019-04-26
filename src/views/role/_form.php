@@ -2,12 +2,12 @@
 
 use yii\bootstrap\ActiveForm;
 use yii\bootstrap\Html;
-use rushstart\user\widgets\MultiSelectWidget;
+use rushstart\usermanager\widgets\MultiSelectWidget;
 use yii\helpers\ArrayHelper;
-use rushstart\user\models\AuthPermission;
+use rushstart\usermanager\models\AuthPermission;
 
 /* @var $this yii\web\View */
-/* @var $model rushstart\user\models\AuthRole */
+/* @var $model rushstart\usermanager\models\AuthRole */
 /* @var $form yii\bootstrap\ActiveForm */
 ?>
 

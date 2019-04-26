@@ -1,12 +1,12 @@
 <?php
 
-namespace rushstart\user\models\search;
+namespace rushstart\usermanager\models\search;
 
-use rushstart\user\models\AuthRule;
+use rushstart\usermanager\models\AuthRule;
 use yii\data\ActiveDataProvider;
 
 /**
- * AuthRuleSearch represents the model behind the search form of `rushstart\user\models\AuthRule`.
+ * AuthRuleSearch represents the model behind the search form of `rushstart\usermanager\models\AuthRule`.
  */
 class AuthRuleSearch extends AuthRule {
     /**

@@ -3,10 +3,10 @@
 use yii\bootstrap\ActiveForm;
 use yii\bootstrap\Html;
 use yii\helpers\ArrayHelper;
-use rushstart\user\models\AuthRule;
+use rushstart\usermanager\models\AuthRule;
 
 /* @var $this yii\web\View */
-/* @var $model rushstart\user\models\AuthPermission */
+/* @var $model rushstart\usermanager\models\AuthPermission */
 /* @var $form yii\bootstrap\ActiveForm */
 ?>
 

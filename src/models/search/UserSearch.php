@@ -1,13 +1,13 @@
 <?php
 
-namespace rushstart\user\models\search;
+namespace rushstart\usermanager\models\search;
 
-use rushstart\user\models\Identity;
+use rushstart\usermanager\models\Identity;
 use yii\base\Model;
 use yii\data\ActiveDataProvider;
 
 /**
- * UserSearch represents the model behind the search form about `rushstart\user\models\Identity`.
+ * UserSearch represents the model behind the search form about `rushstart\usermanager\models\Identity`.
  */
 class UserSearch extends Model {
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace rushstart\user\models;
+namespace rushstart\usermanager\models;
 
 use Yii;
 use yii\base\NotSupportedException;

@@ -5,7 +5,7 @@ use yii\helpers\StringHelper;
 use yii\widgets\DetailView;
 
 /* @var $this yii\web\View */
-/* @var $model rushstart\user\models\AuthRole */
+/* @var $model rushstart\usermanager\models\AuthRole */
 
 $this->title = StringHelper::truncate($model->name, 60);
 $this->params['breadcrumbs'][] = ['label' => 'Роли', 'url' => ['index']];

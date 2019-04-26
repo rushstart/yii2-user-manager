@@ -4,7 +4,7 @@ use yii\bootstrap\Html;
 use yii\helpers\StringHelper;
 
 /* @var $this yii\web\View */
-/* @var $model rushstart\user\models\AuthRole */
+/* @var $model rushstart\usermanager\models\AuthRole */
 
 $this->title = 'Редактировать: ' . StringHelper::truncate($model->name, 60);
 $this->params['breadcrumbs'][] = ['label' => 'Роли', 'url' => ['index']];

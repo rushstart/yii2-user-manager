@@ -1,14 +1,14 @@
 <?php
 
 use yii\bootstrap\Html;
-use rushstart\user\models\AuthRole;
-use rushstart\user\models\Identity;
+use rushstart\usermanager\models\AuthRole;
+use rushstart\usermanager\models\Identity;
 use kartik\widgets\Select2;
 use yii\helpers\ArrayHelper;
 use kartik\widgets\ActiveForm;
 
 /* @var $this yii\web\View */
-/* @var $model rushstart\user\models\forms\UserForm */
+/* @var $model rushstart\usermanager\models\forms\UserForm */
 /* @var $form yii\bootstrap\ActiveForm */
 ?>
 

@@ -1,13 +1,13 @@
 <?php
 
 use yii\bootstrap\Html;
-use rushstart\user\models\AuthRole;
-use rushstart\user\models\Identity;
+use rushstart\usermanager\models\AuthRole;
+use rushstart\usermanager\models\Identity;
 use yii\grid\GridView;
 use yii\helpers\ArrayHelper;
 
 /* @var $this yii\web\View */
-/* @var $searchModel rushstart\user\models\search\UserSearch */
+/* @var $searchModel rushstart\usermanager\models\search\UserSearch */
 /* @var $dataProvider yii\data\ActiveDataProvider */
 
 $this->title = 'Пользователи';

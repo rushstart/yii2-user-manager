@@ -4,7 +4,7 @@ use yii\bootstrap\Html;
 use yii\grid\GridView;
 
 /* @var $this yii\web\View */
-/* @var $searchModel rushstart\user\models\search\AuthRoleSearch */
+/* @var $searchModel rushstart\usermanager\models\search\AuthRoleSearch */
 /* @var $dataProvider yii\data\ActiveDataProvider */
 
 $this->title = 'Роли';

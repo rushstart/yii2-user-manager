@@ -1,9 +1,9 @@
 <?php
 
-namespace rushstart\user\models\forms;
+namespace rushstart\usermanager\models\forms;
 
 use yii\base\Model;
-use rushstart\user\models\Identity;
+use rushstart\usermanager\models\Identity;
 
 /**
  * Signup form

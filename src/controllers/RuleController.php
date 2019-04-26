@@ -1,10 +1,10 @@
 <?php
 
-namespace rushstart\user\controllers;
+namespace rushstart\usermanager\controllers;
 
-use rushstart\user\behaviors\AccessControlBehavior;
-use rushstart\user\models\AuthRule;
-use rushstart\user\models\search\AuthRuleSearch;
+use rushstart\usermanager\behaviors\AccessControlBehavior;
+use rushstart\usermanager\models\AuthRule;
+use rushstart\usermanager\models\search\AuthRuleSearch;
 use Yii;
 use yii\db\StaleObjectException;
 use yii\filters\VerbFilter;

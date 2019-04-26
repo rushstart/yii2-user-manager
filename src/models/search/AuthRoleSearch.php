@@ -1,14 +1,14 @@
 <?php
 
-namespace rushstart\user\models\search;
+namespace rushstart\usermanager\models\search;
 
 use Yii;
 use yii\base\Model;
 use yii\data\ActiveDataProvider;
-use rushstart\user\models\AuthRole;
+use rushstart\usermanager\models\AuthRole;
 
 /**
- * AuthRoleSearch represents the model behind the search form of `rushstart\user\models\AuthRole`.
+ * AuthRoleSearch represents the model behind the search form of `rushstart\usermanager\models\AuthRole`.
  */
 class AuthRoleSearch extends AuthRole
 {

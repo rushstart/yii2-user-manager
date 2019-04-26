@@ -1,14 +1,14 @@
 <?php
 
-namespace rushstart\user\models\search;
+namespace rushstart\usermanager\models\search;
 
 use Yii;
 use yii\base\Model;
 use yii\data\ActiveDataProvider;
-use rushstart\user\models\AuthPermission;
+use rushstart\usermanager\models\AuthPermission;
 
 /**
- * AuthPermissionSearch represents the model behind the search form of `rushstart\user\models\AuthPermission`.
+ * AuthPermissionSearch represents the model behind the search form of `rushstart\usermanager\models\AuthPermission`.
  */
 class AuthPermissionSearch extends AuthPermission
 {

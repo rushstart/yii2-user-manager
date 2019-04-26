@@ -1,8 +1,8 @@
 <?php
 
-namespace rushstart\user\models;
+namespace rushstart\usermanager\models;
 
-use rushstart\user\models\queries\AuthPermissionQuery;
+use rushstart\usermanager\models\queries\AuthPermissionQuery;
 use yii\behaviors\TimestampBehavior;
 use yii\db\ActiveQuery;
 use yii\db\ActiveRecord;

@@ -1,10 +1,10 @@
 <?php
 
-namespace rushstart\user\widgets;
+namespace rushstart\usermanager\widgets;
 
 use Yii;
 use yii\bootstrap\Html;
-use rushstart\user\assets\UserAsset;
+use rushstart\usermanager\assets\UserAsset;
 
 class MultiSelectWidget extends \yii\widgets\InputWidget
 {

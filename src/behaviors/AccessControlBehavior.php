@@ -1,6 +1,6 @@
 <?php
 
-namespace rushstart\user\behaviors;
+namespace rushstart\usermanager\behaviors;
 
 use Yii;
 use yii\web\ForbiddenHttpException;

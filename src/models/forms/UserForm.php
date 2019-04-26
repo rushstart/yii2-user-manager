@@ -1,8 +1,8 @@
 <?php
 
-namespace rushstart\user\models\forms;
+namespace rushstart\usermanager\models\forms;
 
-use rushstart\user\models\Identity;
+use rushstart\usermanager\models\Identity;
 use Yii;
 
 /**

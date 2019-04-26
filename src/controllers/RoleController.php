@@ -1,15 +1,15 @@
 <?php
 
-namespace rushstart\user\controllers;
+namespace rushstart\usermanager\controllers;
 
 use Yii;
-use rushstart\user\models\AuthRole;
-use rushstart\user\models\search\AuthRoleSearch;
+use rushstart\usermanager\models\AuthRole;
+use rushstart\usermanager\models\search\AuthRoleSearch;
 use yii\db\StaleObjectException;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
-use rushstart\user\behaviors\AccessControlBehavior;
+use rushstart\usermanager\behaviors\AccessControlBehavior;
 
 /**
  * RoleController implements the CRUD actions for AuthRole model.

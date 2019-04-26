@@ -1,6 +1,6 @@
 <?php
 
-namespace rushstart\user\models;
+namespace rushstart\usermanager\models;
 
 use yii\behaviors\TimestampBehavior;
 use yii\db\ActiveRecord;
@@ -24,7 +24,7 @@ class AuthRule extends ActiveRecord {
     }
 
     public static function getRulesNamespace() {
-        return 'rushstart\user\rules';
+        return 'rushstart\usermanager\rules';
     }
 
     public function behaviors(): array {

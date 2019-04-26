@@ -1,6 +1,6 @@
 <?php
 
-namespace rushstart\user\rules;
+namespace rushstart\usermanager\rules;
 
 
 class OrderServiceConclusionRule extends \yii\rbac\Rule {

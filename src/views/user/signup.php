@@ -5,7 +5,7 @@ use yii\bootstrap\Html;
 
 /* @var $this yii\web\View */
 /* @var $form yii\bootstrap\ActiveForm */
-/* @var $model rushstart\user\models\forms\SignupForm */
+/* @var $model rushstart\usermanager\models\forms\SignupForm */
 
 $this->title = 'Регистрация';
 $fieldNameOptions = [

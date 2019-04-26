@@ -1,10 +1,10 @@
 <?php
 
-namespace rushstart\user\components;
+namespace rushstart\usermanager\components;
 
 use Yii;
 use yii\helpers\ArrayHelper;
-use rushstart\user\models\AuthPermission;
+use rushstart\usermanager\models\AuthPermission;
 
 /**
  * @inheritdoc

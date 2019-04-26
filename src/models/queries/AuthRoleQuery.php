@@ -1,11 +1,11 @@
 <?php
 
-namespace rushstart\user\models\queries;
+namespace rushstart\usermanager\models\queries;
 
 /**
- * This is the ActiveQuery class for [[\rushstart\user\models\AuthRole]].
+ * This is the ActiveQuery class for [[\rushstart\usermanager\models\AuthRole]].
  *
- * @see \rushstart\user\models\AuthRole
+ * @see \rushstart\usermanager\models\AuthRole
  */
 class AuthRoleQuery extends \yii\db\ActiveQuery
 {
@@ -21,7 +21,7 @@ class AuthRoleQuery extends \yii\db\ActiveQuery
 
     /**
      * {@inheritdoc}
-     * @return \rushstart\user\models\AuthRole[]|array
+     * @return \rushstart\usermanager\models\AuthRole[]|array
      */
     public function all($db = null)
     {
@@ -30,7 +30,7 @@ class AuthRoleQuery extends \yii\db\ActiveQuery
 
     /**
      * {@inheritdoc}
-     * @return \rushstart\user\models\AuthRole|array|null
+     * @return \rushstart\usermanager\models\AuthRole|array|null
      */
     public function one($db = null)
     {

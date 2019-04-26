@@ -3,7 +3,7 @@
 use yii\bootstrap\Html;
 
 /* @var $this yii\web\View */
-/* @var $model rushstart\user\models\AuthRole */
+/* @var $model rushstart\usermanager\models\AuthRole */
 
 $this->title = 'Добавить роль';
 $this->params['breadcrumbs'][] = ['label' => 'Роли', 'url' => ['index']];

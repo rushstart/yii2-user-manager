@@ -1,11 +1,11 @@
 <?php
 
-namespace rushstart\user\models\queries;
+namespace rushstart\usermanager\models\queries;
 
 /**
- * This is the ActiveQuery class for [[\rushstart\user\models\AuthPermission]].
+ * This is the ActiveQuery class for [[\rushstart\usermanager\models\AuthPermission]].
  *
- * @see \rushstart\user\models\AuthPermission
+ * @see \rushstart\usermanager\models\AuthPermission
  */
 class AuthPermissionQuery extends \yii\db\ActiveQuery
 {
@@ -21,7 +21,7 @@ class AuthPermissionQuery extends \yii\db\ActiveQuery
 
     /**
      * {@inheritdoc}
-     * @return \rushstart\user\models\AuthPermission[]|array
+     * @return \rushstart\usermanager\models\AuthPermission[]|array
      */
     public function all($db = null)
     {
@@ -30,7 +30,7 @@ class AuthPermissionQuery extends \yii\db\ActiveQuery
 
     /**
      * {@inheritdoc}
-     * @return \rushstart\user\models\AuthPermission|array|null
+     * @return \rushstart\usermanager\models\AuthPermission|array|null
      */
     public function one($db = null)
     {
