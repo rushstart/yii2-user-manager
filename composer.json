@@ -14,8 +14,7 @@
             "email": "8kolos8@mail.ru"
         }
     ],
-    "minimum-stability": "stable",
-    "prefer-stable": true,
+    "minimum-stability": "dev",
     "require": {
         "php": ">=5.4",
         "yiisoft/yii2": "~2.0.17",
