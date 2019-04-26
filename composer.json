@@ -1,0 +1,35 @@
+{
+    "name": "rushstart/yii2-user",
+    "description": "The user manager extension for the Yii framework",
+    "keywords": [
+        "yii2",
+        "user",
+        "rbac"
+    ],
+    "type": "yii2-extension",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Petrov Dmitriy",
+            "email": "8kolos8@mail.ru"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": ">=5.4",
+        "yiisoft/yii2": "~2.0.17",
+        "npm-asset/multiselect": "0.9.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "rushstart\\user\\": "src"
+        }
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ]
+}
