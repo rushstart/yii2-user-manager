@@ -18,7 +18,7 @@
     "require": {
         "php": ">=5.4",
         "yiisoft/yii2": "~2.0.17",
-        "npm-asset/multiselect": "0.9.*"
+        "bower-asset/multiselect": "0.9.*"
     },
     "autoload": {
         "psr-4": {
