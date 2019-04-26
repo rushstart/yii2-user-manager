@@ -14,7 +14,7 @@
             "email": "8kolos8@mail.ru"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "prefer-stable": true,
     "require": {
         "php": ">=5.4",
