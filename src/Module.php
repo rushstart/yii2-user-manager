@@ -16,13 +16,6 @@ class Module extends \yii\base\Module implements BootstrapInterface {
     public $controllerNamespace = 'rushstart\usermanager\controllers';
 
     /**
-     * {@inheritdoc}
-     */
-    public function init() {
-        parent::init();
-    }
-
-    /**
      * Module specific urlManager
      * @param \yii\base\Application $app
      */
